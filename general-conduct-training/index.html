@@ -763,7 +763,7 @@ async function submitDeclaration(){
   const volId = gateVolunteerId;
   const phone = gatePhone;
 
-  if(SCRIPT_URL.indexOf('PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE') !== -1){
+  if(SCRIPT_URL.indexOf('https://script.google.com/macros/s/AKfycbwpumVOEVKmlLLnhY7mRhwG6g0Q8H5ufBBwILYhc01BTcFdSE0dhP5pm3Y_xmPp6Ti7/exec') !== -1){
     setBanner('error', 'This form is not yet connected to a Google Sheet. Paste your Apps Script Web App URL into SCRIPT_URL in the page code.');
     return;
   }
